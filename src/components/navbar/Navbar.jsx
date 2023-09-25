@@ -1,9 +1,11 @@
 import { NavLink } from "react-router-dom";
+import Banner from "../banner/Banner";
 
 const Navbar = () => {
+  
   return (
     <div>
-      <nav className="flex justify-between items-center py-20">
+      <nav className="flex flex-col gap-6 md:flex-row justify-between items-center py-20">
         <img src="../../../public/Logo.png" alt="" />
         <ul className="flex gap-12 text-lg font-normal">
           <li>
@@ -32,6 +34,8 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
+      <Banner></Banner>
+      
     </div>
   );
 };

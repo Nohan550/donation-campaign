@@ -9,6 +9,8 @@ import './index.css'
 import Navbar from './components/navbar/Navbar';
 import ErrorPage from './components/Error/ErrorPage';
 
+import Cards from './components/Cards/Cards';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,13 +18,14 @@ const router = createBrowserRouter([
           <Navbar></Navbar>
           <Outlet></Outlet>
     </div>,
+    
     errorElement:<ErrorPage></ErrorPage>,
     children:[
+    
       {
         path:"/",
-        element:<div>
-          
-        </div>
+        element:<Cards></Cards>,
+        // loader:fetch('../public/infos.json')
       }
     ]
   },
