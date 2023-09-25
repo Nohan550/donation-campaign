@@ -1,0 +1,122 @@
+[
+    {
+      "picture": "https://i.ibb.co/wgGqJLF/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#60A5FA",
+      "card_bg_color": " #BFDBFE",
+      "text_button_bg_color": "#0052FF",
+      "description": "Clean water is essential for life. It ensures our health, sanitation, and well-being. Access to safe and clean water is fundamental to preventing waterborne diseases, promoting good hygiene, and supporting agriculture and industry. Moreover, clean water is a finite and precious resource that must be conserved and protected for current and future generations",
+      "price": "$199.99"
+    },
+    {
+      "picture": "https://i.ibb.co/TrWpv9n/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FB7185",
+      "card_bg_color": "#FECDD3",
+      "text_button_bg_color": "#FF444A",
+      "description": "Good education is the key to personal growth and societal advancement. It empowers individuals with knowledge and skills, enabling economic success and social mobility. Education fosters critical thinking, civic engagement, and cultural understanding, making it essential for a prosperous and harmonious world",
+      "price": "$249.99"
+    },
+    {
+      "picture": "https://i.ibb.co/0DvSKCJ/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": " #86EFAC",
+      "card_bg_color": "#DCFCE7",
+      "text_button_bg_color": "#79C23F",
+      "description": "Clothing serves as more than just a basic necessity; it plays a significant role in our lives. Beyond providing protection from the elements, clothing reflects our culture, personal style, and individuality. It fosters self-esteem and confidence, enabling us to express ourselves and interact with society. Moreover, clothing industries contribute to economies worldwide, providing jobs and driving innovation. Ultimately, clothing is not just fabric; it's a means of self-expression, cultural identity, and economic growth.",
+      "price": "$179.99"
+    },
+    {
+      "picture": "https://i.ibb.co/nnQMws0/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#FED7AA",
+      "card_bg_color": "#FFEDD5",
+      "text_button_bg_color": "#F87147",
+      "description": "Food is essential for our survival and overall well-being. It provides us with the nutrients, energy, and sustenance needed for daily life. Beyond its basic function, food is a source of pleasure, cultural identity, and social connection. It fuels our bodies, supports growth and development, and plays a critical role in maintaining good health. Access to nutritious and safe food is a fundamental human right and a key factor in ensuring a high quality of life.",
+      "price": "$229.99"
+    },
+    {
+      "picture": "https://i.ibb.co/nnQMws0/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#FED7AA",
+      "card_bg_color": "#FFEDD5",
+      "text_button_bg_color": "#F87147",
+      "description": "Food is essential for our survival and overall well-being. It provides us with the nutrients, energy, and sustenance needed for daily life. Beyond its basic function, food is a source of pleasure, cultural identity, and social connection. It fuels our bodies, supports growth and development, and plays a critical role in maintaining good health. Access to nutritious and safe food is a fundamental human right and a key factor in ensuring a high quality of life.",
+      "price": "$299.99"
+    },
+    {
+      "picture": "https://i.ibb.co/0DvSKCJ/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": " #86EFAC",
+      "card_bg_color": "#DCFCE7",
+      "text_button_bg_color": "#79C23F",
+      "description": "Clothing serves as more than just a basic necessity; it plays a significant role in our lives. Beyond providing protection from the elements, clothing reflects our culture, personal style, and individuality. It fosters self-esteem and confidence, enabling us to express ourselves and interact with society. Moreover, clothing industries contribute to economies worldwide, providing jobs and driving innovation. Ultimately, clothing is not just fabric; it's a means of self-expression, cultural identity, and economic growth.",
+      "price": "$239.99"
+    },
+    {
+      "picture": "https://i.ibb.co/TrWpv9n/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FB7185",
+      "card_bg_color": "#FECDD3",
+      "text_button_bg_color": "#FF444A",
+      "description": "Good education is the key to personal growth and societal advancement. It empowers individuals with knowledge and skills, enabling economic success and social mobility. Education fosters critical thinking, civic engagement, and cultural understanding, making it essential for a prosperous and harmonious world.",
+      "price": "$199.99"
+    },
+    {
+      "picture": "https://i.ibb.co/wgGqJLF/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#60A5FA",
+      "card_bg_color": " #BFDBFE",
+      "text_button_bg_color": "#0052FF",
+      "description": "Clean water is essential for life. It ensures our health, sanitation, and well-being. Access to safe and clean water is fundamental to preventing waterborne diseases, promoting good hygiene, and supporting agriculture and industry. Moreover, clean water is a finite and precious resource that must be conserved and protected for current and future generations",
+      "price": "$129.99"
+    },
+    {
+      "picture": "https://i.ibb.co/0DvSKCJ/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": " #86EFAC",
+      "card_bg_color": "#DCFCE7",
+      "text_button_bg_color": "#79C23F",
+      "description": "Clothing serves as more than just a basic necessity; it plays a significant role in our lives. Beyond providing protection from the elements, clothing reflects our culture, personal style, and individuality. It fosters self-esteem and confidence, enabling us to express ourselves and interact with society. Moreover, clothing industries contribute to economies worldwide, providing jobs and driving innovation. Ultimately, clothing is not just fabric; it's a means of self-expression, cultural identity, and economic growth.",
+      "price": "$149.99"
+    },
+    {
+      "picture": "https://i.ibb.co/nnQMws0/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#FED7AA",
+      "card_bg_color": "#FFEDD5",
+      "text_button_bg_color": "#F87147",
+      "description": "Food is essential for our survival and overall well-being. It provides us with the nutrients, energy, and sustenance needed for daily life. Beyond its basic function, food is a source of pleasure, cultural identity, and social connection. It fuels our bodies, supports growth and development, and plays a critical role in maintaining good health. Access to nutritious and safe food is a fundamental human right and a key factor in ensuring a high quality of life.",
+      "price": "$269.99"
+    },
+    {
+      "picture": "https://i.ibb.co/TrWpv9n/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FB7185",
+      "card_bg_color": "#FECDD3",
+      "text_button_bg_color": "#FF444A",
+      "description": "Good education is the key to personal growth and societal advancement. It empowers individuals with knowledge and skills, enabling economic success and social mobility. Education fosters critical thinking, civic engagement, and cultural understanding, making it essential for a prosperous and harmonious world.",
+      "price": "$179.99"
+    },
+    {
+      "picture": "https://i.ibb.co/wgGqJLF/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#60A5FA",
+      "card_bg_color": " #BFDBFE",
+      "text_button_bg_color": "#0052FF",
+      "description": "Clean water is essential for life. It ensures our health, sanitation, and well-being. Access to safe and clean water is fundamental to preventing waterborne diseases, promoting good hygiene, and supporting agriculture and industry. Moreover, clean water is a finite and precious resource that must be conserved and protected for current and future generations",
+      "price": "$249.99"
+    }
+  ]
