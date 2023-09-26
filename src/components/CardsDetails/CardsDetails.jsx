@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
+
 const CardsDetails = ({ card }) => {
-     const{title,picture,category,category_bg_color,card_bg_color,text_button_bg_color} = card;
+     const{id,title,picture,category,category_bg_color,card_bg_color,text_button_bg_color} = card;
+  
   return (
-    <div onClick={'/details'}>
-      <div className={`card  w-[312px] bg-[${card_bg_color}]  rounded-xl`}>
+  
+    <div >
+     <Link to={`/cards/${id}`}>
+     <div style={{backgroundColor:card_bg_color}}  className={`card  w-[312px]  rounded-xl`}>
         <figure className=" w-full pb-4">
           <img
             src={picture}
@@ -11,11 +16,13 @@ const CardsDetails = ({ card }) => {
           />
         </figure>
         <div className="px-4 pb-4 ">
-            <h3 className={`text-[${text_button_bg_color}] bg-[${category_bg_color}] w-fit rounded  text-sm font-medium px-2 py-1`}>{category}</h3>
+            <h3 style={{backgroundColor: category_bg_color, color:text_button_bg_color}} className={`
+             w-fit rounded  text-sm font-medium px-2 py-1`}>{category}</h3>
 
-          <h2 className={`text-[${text_button_bg_color}] text-xl font-semibold`}>{title}</h2>
+          <h2 style={{color:text_button_bg_color}} className={` text-xl font-semibold`}>{title}</h2>
         </div>
       </div>
+     </Link>
     </div>
   );
 };

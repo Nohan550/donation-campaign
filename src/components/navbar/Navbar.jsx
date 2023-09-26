@@ -1,12 +1,11 @@
-import { NavLink } from "react-router-dom";
-import Banner from "../banner/Banner";
+import { NavLink} from "react-router-dom";
 
 const Navbar = () => {
   
   return (
     <div>
       <nav className="flex flex-col gap-6 md:flex-row justify-between items-center py-20">
-        <img src="../../../public/Logo.png" alt="" />
+        <img src="./Logo.png" alt="" />
         <ul className="flex gap-12 text-lg font-normal">
           <li>
             <NavLink
@@ -34,7 +33,9 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <Banner></Banner>
+      
+     
+      
       
     </div>
   );
