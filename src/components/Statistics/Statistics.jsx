@@ -1,10 +1,9 @@
 
+import { useEffect, useState } from "react";
 import { PieChart, Pie,  Cell } from "recharts";
+  
 
-const data = [
-  { name: "Group A", value: 100 },
-  { name: "Group B", value: 600 },
-];
+
 
 const COLORS = ["#FF444A", "#00C49F"];
 
@@ -36,6 +35,21 @@ const renderCustomizedLabel = ({
 };
 
 const Statistics = () => {
+
+  const[donation,setDonation]=useState([]) 
+
+  const data = [
+    { name: "Group A", value: 12-donation.length },
+    { name: "Group B", value: donation.length },
+  ];
+  useEffect(()=>{
+    const donationCard = JSON.parse(localStorage.getItem('donation')); 
+    if(donationCard){
+        setDonation(donationCard)
+    }
+ 
+},[])
+
   return (
     <div className="flex flex-col items-center justify-center gap-16 pb-40">
       <PieChart width={400} height={400}>

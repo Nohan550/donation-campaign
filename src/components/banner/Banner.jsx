@@ -1,4 +1,11 @@
+
+import { Link } from "react-router-dom";
+
 const Banner = () => {
+ 
+
+     
+  
   return (
     <div
       className=" md:bg-[url('https://i.ibb.co/tPz3tK9/Rectangle-4281.png?fbclid=IwAR2L6RNBIXCgMMAq2uBuaO4RhPmpyXJFgGTcUCejsTm-QmmiPU6hDwhOqEA')]
@@ -13,13 +20,18 @@ const Banner = () => {
         </h1>
         <div>
           <input
+          id="search"
             type="text"
             className="h-12 md:w-[470px] px-4 rounded-l-lg  "
-            placeholder="Search Here...."
+            placeholder="Search Here(Category)...."
           />
-          <button className="btn btn-error rounded-l-none h-12 rounded-r-lg text-white">
+         <Link to={'/search'}>
+         <button  className="btn btn-error rounded-l-none w-28 h-12 rounded-r-lg text-white">
             Search
-          </button>
+            </button>
+            
+         </Link>
+          
         </div>
       </div>
     </div>

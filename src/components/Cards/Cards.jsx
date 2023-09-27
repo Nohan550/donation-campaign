@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import CardsDetails from "../CardsDetails/CardsDetails";
 
 
+
 const Cards = () => {
     const[cards,setCards]=useState();
     
@@ -21,6 +22,7 @@ const Cards = () => {
         cards?.map(card=> <CardsDetails key={card.id} card={card}></CardsDetails>)
 
         }
+       
         </div>
     );
 };

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const DonationCardList = ({ card }) => {
-    const { id, category, title, picture,card_bg_color,category_bg_color, text_button_bg_color, price, description } = card;
+    const { id, category, title, picture,card_bg_color,category_bg_color, text_button_bg_color, price } = card;
   return (
     <div>
       <div style={{backgroundColor:card_bg_color}} className=" md:w-[400px ] lg:w-[600px] rounded-lg h-52">

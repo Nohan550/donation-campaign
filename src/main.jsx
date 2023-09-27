@@ -14,9 +14,10 @@ import ErrorPage from './components/Error/ErrorPage';
 import Cards from './components/Cards/Cards';
 import Card from './components/Card/Card';
 import Banner from './components/banner/Banner';
-import Donation from './components/Statistics/Statistics';
+
 import Statistics from './components/Statistics/Statistics';
 import DonationCart from './components/DonationCart/DonationCart';
+
 
 const router = createBrowserRouter([
   {
@@ -34,19 +35,18 @@ const router = createBrowserRouter([
           <Banner></Banner>
           <Outlet></Outlet>
         </div>,
+       
         children:[
           {
             path:'/',
             element:<Cards></Cards>
-          }
+          },
+          
+          
         ]
       },
     
-      {
-        path:"/",
-        element:<Cards></Cards>,
       
-      },
       {
         path:"/cards/:id",
         element:<Card></Card>,
