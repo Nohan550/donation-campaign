@@ -14,7 +14,9 @@ import ErrorPage from './components/Error/ErrorPage';
 import Cards from './components/Cards/Cards';
 import Card from './components/Card/Card';
 import Banner from './components/banner/Banner';
-import Donation from './components/Donation/Donation';
+import Donation from './components/Statistics/Statistics';
+import Statistics from './components/Statistics/Statistics';
+import DonationCart from './components/DonationCart/DonationCart';
 
 const router = createBrowserRouter([
   {
@@ -48,11 +50,15 @@ const router = createBrowserRouter([
       {
         path:"/cards/:id",
         element:<Card></Card>,
-        loader:() => fetch('./infos.json')
+        loader:() => fetch('/infos.json')
       },
       {
-        path:'/donation',
-        element:<Donation></Donation>
+        path:'/statistics',
+        element:<Statistics></Statistics>
+      },
+      {
+        path:"/donation",
+        element:<DonationCart></DonationCart>
       }
     ]
   },

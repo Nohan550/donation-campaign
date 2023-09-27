@@ -7,7 +7,7 @@ const Cards = () => {
     
     useEffect(
          () => {
-            fetch('./infos.json')
+            fetch('/infos.json')
              .then(res => res.json())
              .then(data => setCards(data))
         }
