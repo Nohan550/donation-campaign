@@ -1,4 +1,4 @@
-## 3 PROJECT FEATURES
+##  PROJECT FEATURES
 --The project is react based dynamic project.
 
 --Used different types of hooks
